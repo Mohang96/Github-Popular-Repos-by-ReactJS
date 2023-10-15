@@ -1,0 +1,15 @@
+.inactive {
+  font-family: 'Roboto';
+  font-size: 20px;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  border: none;
+}
+
+.active {
+  color: #0284c7;
+  border: 1px solid #0284c7;
+  border-radius: 15px;
+  padding: 5px 18px 5px 18px;
+}

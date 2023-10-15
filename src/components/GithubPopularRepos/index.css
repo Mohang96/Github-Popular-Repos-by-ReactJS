@@ -1,0 +1,51 @@
+.background-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+.heading {
+  color: #0f172a;
+  font-size: 52px;
+  font-weight: 500;
+  font-family: 'Lobster';
+  margin-bottom: 20px;
+}
+
+.language-fliters-container {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.language-options-list {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  margin: auto;
+}
+
+.in-progress-view {
+  width: 100%;
+  text-align: center;
+}
+
+.success-view-container {
+  width: 100%;
+}
+
+.success-view-repos-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.failure-view-container {
+  width: 100%;
+}
+
+.failure-view-image {
+  width: 80%;
+}
